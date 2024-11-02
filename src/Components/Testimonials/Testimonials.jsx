@@ -64,7 +64,6 @@ const Testimonials = () => {
 
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam consequatur tempore officiis cumque nulla possimus saepe!</p>
 
                 </div>
             </li>
@@ -83,8 +82,6 @@ const Testimonials = () => {
 
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quia laborum nostrum modi distinctio quisquam iusto sunt!</p>
-
                 </div>
             </li>
             <li>
@@ -102,7 +99,6 @@ const Testimonials = () => {
 
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde placeat adipisci porro vitae atque necessitatibus deserunt!</p>
 
                 </div>
             </li>
@@ -121,7 +117,6 @@ const Testimonials = () => {
 
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt nobis corporis cupiditate commodi tenetur neque</p>
 
                 </div>
             </li>
