@@ -1,0 +1,171 @@
+.programs{
+
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.program img{
+
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.program{
+    flex-basis: 31%;
+    position: relative;
+
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+
+.caption img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
+
+/* General styling for the programs container */
+.programs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual program item styling */
+.program {
+  width: 100%;
+  max-width: 300px;
+  flex: 1 1 300px;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.program img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  padding: 10px;
+}
+
+.caption img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.caption p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Styles for the button */
+.program-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #212ea0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.program-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+
+/* Tablet view */
+@media (min-width: 600px) {
+  .programs {
+    gap: 30px;
+  }
+  
+  .program {
+    max-width: 280px;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 1024px) {
+  .programs {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+  }
+
+  .program {
+    max-width: 300px;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 599px) {
+  .programs {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .program-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+.program-button img{
+   width: 20px;
+  margin-left: 10px;
+}
+
+
+/* media query */
+
+
+@media (max-width:650px) {
+
+    .programs{
+        flex-direction: column;
+    }
+
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+
+}
