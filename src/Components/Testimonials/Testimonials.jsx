@@ -59,7 +59,7 @@ const Testimonials = () => {
                         <div>
 
                         <h3>Anayat Hossain </h3>
-                        <span>Former Creative Video Editor</span>
+                        <span>Joint Organizing Secretary</span>
                         </div>
 
                     </div>
@@ -77,7 +77,7 @@ const Testimonials = () => {
                         <div>
 
                         <h3>Rafiul Islam</h3>
-                        <span>Joint Organizing Secretary</span>
+                        <span>Vice President Of IT CLUB</span>
                         </div>
 
                     </div>
@@ -94,7 +94,7 @@ const Testimonials = () => {
                         <div>
 
                          <h3>Azmain Hasan Daiyan</h3>
-                         <span>Executive Member</span>
+                        <span>Volunteer Coordinator Of IT CLUB</span>
                         </div>
 
                     </div>
@@ -112,7 +112,7 @@ const Testimonials = () => {
                         <div>
 
                         <h3>Tahmid Jawwad</h3>
-                        <span>President</span>
+                        <span>President Of IT CLUB</span>
                         </div>
 
                     </div>

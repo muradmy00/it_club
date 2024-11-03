@@ -53,6 +53,7 @@ const EventsPage = () => {
 
       </div>
 
+      <button className='program-button'>See more...</button>
 
     </div>
   )
